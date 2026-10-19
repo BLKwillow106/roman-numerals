@@ -1,0 +1,33 @@
+roman numerals
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number ;
+    cout << "enter a number (1-10): ";
+    cin >> number;  
+    if (number == 1) {
+        cout << "I" << endl;
+    } else if (number == 2) {
+        cout << "II" << endl;
+    } else if (number == 3) {
+        cout << "III" << endl;
+    } else if (number == 4) {
+        cout << "IV" << endl;
+    } else if (number == 5) {
+        cout << "V" << endl;
+    } else if (number == 6) {
+        cout << "VI" << endl;
+    } else if (number == 7) {
+        cout << "VII" << endl;
+    } else if (number == 8) {
+        cout << "VIII" << endl;
+    } else if (number == 9) {
+        cout << "IX" << endl;
+    } else if (number == 10) {
+        cout << "X" << endl;
+    } else {
+        cout << "Invalid input. Please enter a number between 1 and 10." << endl;
+    }
+    return 0;
+}
